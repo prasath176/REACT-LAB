@@ -1,25 +1,15 @@
-import React, { useState } from 'react'
+import React from 'react'
 
-function Counter() {
-    const [count,Setcount]=useState(0)
-    const increment=()=>{
-        Setcount(count+1)
-    }
-    const decrement=()=>{
-        Setcount(count-1)
-    }
-    const reset=()=>{
-        Setcount(0)
-    }
+function App() {
   return (
     <div>
-        <h1>counterApp</h1>
-        <div>{count}</div>
-        <button onClick={increment}>Increment</button>
-        <button onClick={decrement}>Decrement</button>
-        <button onClick={reset}>Reset</button>
+      <p class="bg-amber-100">Lorem ipsum dolor sit amet.</p>
+      <p class="bg-amber-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, similique. lorem10</p>
+      <p class="bg-amber-500">Lorem ipsum dolor sit amet consectetur</p>
+      <p class="bg-amber-300">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+      <p class="bg-amber-600">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
     </div>
   )
 }
 
-export default Counter
+export default App
